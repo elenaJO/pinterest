@@ -97,7 +97,7 @@ li{
   padding: 20px 20px;
   padding-top: 23px;
   font-family: helvetica;
-  margin-right: 22px;
+  margin-right: 12px;
   border-radius: 10px;
   background: red;
   color:#fff;
@@ -110,37 +110,33 @@ nav{
 }
 
 #cheat{
-  background: #746050;
+  background: #674850;
 }
 
 #tutorial{
-  background: #ab8b6f;
+  background: #979aa8;
 }
 
 #code{
-  background: #8e7965;
+  background: #bf716c;
 }
 
 #fun{
-  background: #8e6e52;
+  background: #68663b;
 }
 
 #programing{
-  background: #969048;
+  background: #b4afb3;
 }
 
 #project{
-  background: #84755d;
+  background: #875438;
 }
 
 #post{
-  background: #8d8383;
+  background: #83a5c4;
 }
 
 #medium{
-  background: #98785d;
-}
-
-#video{
-  background: #ae7d73;
+  background: #B4955F;
 }

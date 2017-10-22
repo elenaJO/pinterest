@@ -217,3 +217,8 @@ img{
   right: 470px;
   bottom: 480px;
 }
+
+input:focus{
+  outline: 0px;/*para quitar el borde que viene por defecto*/
+
+}

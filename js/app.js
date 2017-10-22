@@ -1,0 +1,1 @@
+alert("Replica de Pinterest")

@@ -1,5 +1,6 @@
 header{
   /*outline: 1px solid red;*/
+
 }
 .bar{
   /*outline: 1px solid blue;*/
@@ -16,6 +17,7 @@ header{
   width: 940px;
   background:#efefef;
   border-radius: 10px;
+  height: 45px;
 }
 
 p{
@@ -86,4 +88,59 @@ hr{
   border: none;
   background:#d3d3d3;
   left: 0px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  /*outline: 1px solid blue;*/
+  height: 20px;
+  padding: 20px 20px;
+  padding-top: 23px;
+  font-family: helvetica;
+  margin-right: 22px;
+  border-radius: 10px;
+  background: red;
+  color:#fff;
+  font-weight: bold;
+}
+
+nav{
+  /*outline: 1px solid red;*/
+  padding-left: 115px;
+}
+
+#cheat{
+  background: #746050;
+}
+
+#tutorial{
+  background: #ab8b6f;
+}
+
+#code{
+  background: #8e7965;
+}
+
+#fun{
+  background: #8e6e52;
+}
+
+#programing{
+  background: #969048;
+}
+
+#project{
+  background: #84755d;
+}
+
+#post{
+  background: #8d8383;
+}
+
+#medium{
+  background: #98785d;
+}
+
+#video{
+  background: #ae7d73;
 }

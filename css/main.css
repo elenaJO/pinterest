@@ -1,6 +1,10 @@
 header{
   /*outline: 1px solid red;*/
-
+ position: fixed;
+ background: #ffffff;
+ /*outline: 1px solid blue*/
+ width: 1340px;
+ top:0px;
 }
 .bar{
   /*outline: 1px solid blue;*/
@@ -139,4 +143,25 @@ nav{
 
 #medium{
   background: #B4955F;
+}
+
+main{
+  width: 1200px;
+  outline: 1px solid red;
+  margin-left: 75px;
+  padding-top: 170px;
+  overflow: auto;
+}
+
+img{
+  margin-left:0px;
+  margin-right: 9px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  float:left;
+}
+
+a{
+  
+
 }

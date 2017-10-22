@@ -2,6 +2,7 @@ header{
   /*outline: 1px solid red;*/
  position: fixed;
  background: #ffffff;
+ z-index: 2; /*cuando se superponen al tener mayor valor que el , el va primero*/
  /*outline: 1px solid blue*/
  width: 1340px;
  top:0px;
@@ -147,10 +148,11 @@ nav{
 
 main{
   width: 1200px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin-left: 75px;
   padding-top: 170px;
   overflow: auto;
+
 }
 
 img{
@@ -158,10 +160,60 @@ img{
   margin-right: 9px;
   margin-bottom: 10px;
   border-radius: 8px;
+  z-index:1; /*cuando de superpone al header al tener el menor valor baja*/
   float:left;
+  position: relative; /*para que se pueda mover*/
+}
+#post6{
+  top:40px;
 }
 
-a{
-  
+#post7{
+  bottom: 50px;
+}
 
+#post8{
+  bottom: 250px;
+}
+
+#post9{
+  bottom: 65px;
+}
+
+#post10{
+  bottom: 30px;
+}
+
+#post11{
+  top:80px;
+}
+
+#post12{
+  top: 120px;
+}
+
+#post13{
+  bottom: 490px;
+}
+
+#post14{
+  bottom: 520px;
+}
+
+#post15{
+  bottom: 270px;
+}
+
+#post16{
+  bottom: 250px;
+}
+
+#post17{
+  right: 950px;
+  bottom: 180px;
+}
+
+#post18{
+  right: 470px;
+  bottom: 480px;
 }
